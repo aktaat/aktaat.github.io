@@ -1,0 +1,145 @@
+header{
+    color: aliceblue;
+    background-color: rgb(5, 14, 44);
+    padding: 15px 0 15px 0;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+.h{
+    height: 40px;
+    background-image: url(Bill_B.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width:768px){
+    .h{
+        height: 40px;
+        background-image: url(Bill_B.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.t{
+    margin: 0;
+    padding: 15px 15px;
+}
+.n{
+    margin: 0;
+    padding: 5px 15px;
+    font-size: 100%;
+}
+img{
+    width: 400px;
+    height: 100%;
+}
+figure{
+    margin: 0;
+}
+p{
+    color: white;
+    font-size: 80%;
+    margin: 0;
+    padding: 10px 0 0 0;
+    line-height: 2;
+}
+a{
+    font-size: 80%;
+    text-decoration: none;
+    color: chartreuse;
+}
+.contact{
+    margin: 20px 0 5px 15px;
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+.bg_scroll{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(BG.png);
+    background-position: 0px 0px;
+    background-size:cover;
+}
+section{
+}
+.content{
+    margin: 20px;
+    position: relative;
+}
+.row{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    
+}
+h4{
+    margin: 15px 15px;
+    background: mediumslateblue;/*背景色*/
+    color:white;/*文字色*/
+    padding:5px 10px;/*内側の余白*/
+    border-radius: 20px;/*角を丸くする*/
+    font-family: 'Avenir','Arial';/*フォントをいい感じに*/
+}
+.footer_{
+    padding-bottom: 30px;
+}
+div{
+    margin: 0;
+    padding: 0;
+}
+.explain{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: azure;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    padding: 15px 25px;
+    text-align: center;
+    color: azure
+}
+hr{
+    margin: 0;
+    size: 3px;
+}
+/*以下class名link_buttonのデザイン*/
+.link_button {
+    font-weight: bold;/*太字に*/
+    text-decoration: none;/*下線消す*/
+    background: skyblue;/*背景を水色に*/
+    color:white;/*文字を白に*/
+    padding:5px 10px;/*内側の余白*/
+    border-radius: 20px;/*角を丸くする*/
+    font-family: 'Avenir','Arial';/*フォントをいい感じに*/
+  }
+  /*以下カーソルを当てたとき*/
+  .link_button:hover {
+    background: silver;/*背景色をシルバーに*/
+    text-decoration: none;/*下線を消す*/
+  }
