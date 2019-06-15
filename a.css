@@ -34,10 +34,12 @@ header{
     font-size: 100%;
 }
 img{
-    width: 400px;
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
 figure{
+    width: 100%;
+    height: auto;
     margin: 0;
 }
 p{
